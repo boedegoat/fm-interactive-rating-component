@@ -10,8 +10,8 @@ A challenge from [frontendmentor.io](https://www.frontendmentor.io/)
 
 ### Links
 
-- [Live Site](https://your-live-site-url.com)
-- [Solution](https://your-solution-url.com)
+- [Live Site](https://fm-interactive-rating-component.vercel.app/)
+- [Solution](https://www.frontendmentor.io/solutions/css-flexbox-HyqAOqtfc)
 
 ### The challenge
 
