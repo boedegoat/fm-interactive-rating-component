@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+    <title>Frontend Mentor | Interactive rating component</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="rating">
+          <img class="rating-icon" src="./images/icon-star.svg" alt="icon-start" />
+          <h1 class="rating-title">How did we do?</h1>
+          <p class="rating-description">
+            Please let us know how we did with your support request. All feedback is appreciated to
+            help us improve our offering!
+          </p>
+          <div class="rating-points">
+            <button class="rating-points-btn">1</button>
+            <button class="rating-points-btn">2</button>
+            <button class="rating-points-btn">3</button>
+            <button class="rating-points-btn">4</button>
+            <button class="rating-points-btn">5</button>
+          </div>
+          <button class="rating-submit">Submit</button>
+          <p class="rating-submit-error">Please select a rating to submit !</p>
+        </div>
+        <div class="result">
+          <img
+            class="result-img"
+            src="./images/illustration-thank-you.svg"
+            alt="illustration thank you"
+          />
+          <div class="result-rating">
+            You selected
+            <span>0</span>
+            out of 5
+          </div>
+          <h1 class="result-title">Thank you!</h1>
+          <p class="result-description">
+            We appreciate you taking the time to give a rating. If you ever need more support, don’t
+            hesitate to get in touch!
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Challenged by <a href="https://www.frontendmentor.io" target="_blank">frontendmentor</a>.
+      Created by
+      <a href="https://www.frontendmentor.io/profile/boedegoat" target="_blank">@boedegoat</a>
+    </footer>
+  </body>
+</html>
